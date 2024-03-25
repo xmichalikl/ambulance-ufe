@@ -30,7 +30,7 @@ export class LmiAmbulanceWlEditor {
       this.entry = {
         id: '@new',
         patientId: '',
-        waitingSince: '',
+        waitingSince: new Date().toDateString(),
         estimatedDurationMinutes: 15,
       };
       return this.entry;
